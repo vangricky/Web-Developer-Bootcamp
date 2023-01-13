@@ -1,3 +1,10 @@
+// function funcName () {
+    //do something
+// }
+
+
+
+
 function grumpus() {
     console.log("Ugh... you again...");
     console.log("For the last time...");
