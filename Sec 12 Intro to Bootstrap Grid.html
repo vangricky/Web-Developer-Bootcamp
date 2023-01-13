@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Basics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="Sec 12 Intro to Bootstrap Grid.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="display-1 text-center text-primary">The Grid System</h1>
+    <!-- Below, the units add up to '12'. I believe thats the default unit that goes
+    accross a default webpage. -->
+    <div class="row">
+        <div class="col-2 bg-success">I AM 2 UNITS</div>
+        <div class="col-8 bg-danger">I AM 8 UNITS</div>
+        <div class="col-2 bg-success">I AM 2 UNITS</div>
+    </div>
+    <div class="row">
+        <div class="col-3 bg-info">I AM 3 UNITS</div>
+        <div class="col-6 bg-warning">I AM 6 UNITS</div>
+        <div class="col-3 bg-info">I AM 3 UNITS</div>
+    </div>
+    <div class="row">
+        <div class="col bg-primary">I AM AUTO SIZED</div>
+        <div class="col bg-secondary">I AM AUTO SIZED</div>
+        <div class="col-9 bg-primary">I AM AUTO SIZED</div>
+        <div class="col bg-secondary">I AM AUTO SIZED</div>
+        <!-- Above, we see the we have it all auto sized, except 1.
+        1 is 9 units long across the page, so the other 3 columns will
+        have to make up the difference. -->
+    
+    <h2 class="display-3">Responsive Grid</h2>
+    <div class="row">
+        <div class="col-md-6 col-xl-3 bg-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, consequatur architecto, omnis, tenetur sequi praesentium necessitatibus corporis ex quos saepe eveniet. Magnam earum maxime animi distinctio error dolore iste reiciendis.
+        </div>
+        <div class="col-md-6 col-xl-3 bg-success">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, consequatur architecto, omnis, tenetur sequi praesentium necessitatibus corporis ex quos saepe eveniet. Magnam earum maxime animi distinctio error dolore iste reiciendis.
+        </div>
+        <div class="col-md-6 col-xl-3 bg-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, consequatur architecto, omnis, tenetur sequi praesentium necessitatibus corporis ex quos saepe eveniet. Magnam earum maxime animi distinctio error dolore iste reiciendis.
+        </div>
+        <div class="col-md-6 col-xl-3 bg-success">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, consequatur architecto, omnis, tenetur sequi praesentium necessitatibus corporis ex quos saepe eveniet. Magnam earum maxime animi distinctio error dolore iste reiciendis.
+        </div>
+    </div>
+    </div>
+
+<div class="row">
+    <div class="col">
+    <img class="img-fluid" src="https://images.unsplash.com/photo-1667584412550-95241626c80a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="tree">
+    </div>
+    <div class="col"></div>
+    <img class="img-fluid" src="https://images.unsplash.com/photo-1666624481302-b466bb943c0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" alt="">
+    </div>
+    <div class="col">
+    <img class="img-fluid" src="https://images.unsplash.com/photo-1657700099548-ae6572ec6d13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+    </div>
+</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

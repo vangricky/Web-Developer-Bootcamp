@@ -1,0 +1,19 @@
+img {
+    width: 30%;
+    margin: 1.66666%;
+    /* or 
+    margin: calc(10%/6);
+    What we just did above, calc, is we wanted to split 10% 6 ways. 6 = margins. We have 6 because we have to count the left and right of each photo.
+    We have 3 photos on each row and each photo has two sides. 2 times 3 (photos) is 6.  */
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+
+}

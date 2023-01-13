@@ -1,0 +1,14 @@
+h2 {
+    color: teal;
+    background-color: rgb(100, 100, 110);
+}
+
+button {
+    color:magenta;
+    background-color: cyan;
+}
+
+p {
+    color: olive;
+    background: orange;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Basics</title>
+    <!-- Below, we have the LINK that we got from 'getbootstrap.com'. We found the
+    link in the introductions tab in 'Docs'. We just copied and pasted the 
+    CSS link right below, in the <head> section, By doing this we 
+    are able to load the CSS from bootstrap, making it a copy and paste
+    kinda' deal. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="Sec 12 Including Bootstrap Containers.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <h1 class="display-1 text-center text-primary">Bootstrap Playground</h1>
+    <h2 class="display-4">Buttons <span class="badge text-bg-secondary rounded-pill text-bg-success">New</span></h2>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button class="btn btn-outline-warning">Warning Outline</button>
+    <button class="btn btn-outline-danger">Danger Outline</button>
+    <button class="btn btn-outline-info btn-lg">LG Button</button>
+    <button class="btn btn-outline-secondary btn-sm">SM Button</button>
+    <button type="button" class="btn btn-success"disabled>Success Disabled</button>
+    <!-- Above, we included "btn-lg" and "btn-sm" to make the button size smaller
+    or bigger. -->
+    <button class="btn btn-primary">Updates <span class="badge text-bg-secondary">9</span></button>
+    
+    <h3>Button Groups</h3>
+    <div class="btn-group">
+        <button class="btn btn-warning">One</button>
+        <button class="btn btn-warning">Two</button>
+        <button class="btn btn-warning">Three</button>
+    </div>
+
+    <h3>Alerts</h3>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <h4 class="alert-heading">Oh No!</h4>
+        Danger! You are about to end the world!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <h2 class="display-4">Typography</h2>
+    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Harum natus autem eveniet asperiores sit consectetur aut facere 
+    aspernatur! Quidem eligendi accusantium magni numquam doloribus reiciendis 
+    explicabo rerum laudantium. Quam, blanditiis!</p>
+    <!-- Blockquote (BELOW) is supposed to go in "quotations", be it's own
+    thing -->
+    <blockquote class="blockquote text-end">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet repellendus et rerum at eligendi beatae possimus laboriosam maxime officiis ullam dolorum, quasi voluptatum veniam nesciunt ipsam assumenda perspiciatis debitis.</p>
+        <footer class="blockquote-footer">Mr. Lorem Ipsum</footer>
+        <!-- blockquote-footer has that "-" to make it look like a quote! -->
+    </blockquote>
+    
+    </div>
+    <!-- Below, we copied the JS script from 'getbootstrap.com'. Just like
+    how we copied a CSS in the <head> above. We are using a developer's
+    team's JS, making things easier. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
