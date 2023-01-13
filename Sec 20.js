@@ -2,6 +2,9 @@
     //do something
 // }
 
+// Now we have to RUN the function to do so, do this:
+//funcName ();
+
 
 
 
