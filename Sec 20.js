@@ -53,3 +53,50 @@ function isSnakeEyes(die1, die2) {
         console.log(`Not Snake Eyes!`)
     }
 }
+
+// function add(num1, num2) {
+//     console.log(x + y)
+// }
+
+function add(num1, num2){
+    let sum = num1 + num2;
+    return sum;
+}
+
+function add(x, y) {
+    if (typeof x !== 'number' || typeof y !== 'number') {
+        return false
+    } 
+    return x + y;
+}
+
+// It's time to practice returning values from a function! Write a simple function multiply which accepts two numerical arguments and returns their product (multiply them together).
+// Make sure to return the value instead of printing it!
+
+// multiply(2,3) // 6
+// multiply(9,9) // 81
+// multiply(5,4) // 20
+
+function multiply(num1, num2) {
+    let answer = num1 * num2;
+    return answer;
+}
+
+// I often struggle to know whether I should wear shorts or pants on a given day. (this is a complete lie.  It's really not that hard to decide.) 
+// Please help me decide by writing me a function called isShortsWeather. 
+// It should accept a single number argument, which we will call temperature(but you can name it whatever you want, of course). 
+// If temperature is greater than or equal to 75, return true. 
+// Otherwise, return false.   
+// This exercise assumes temperature is in Fahrenheit.  I apologize to all my Celsius-using students!
+
+// isShortsWeather(80) //true
+// isShortsWeather(48) //false
+// isShortsWeather(75) //true
+
+function isShortsWeather(temperature) {
+    if (temperature >= 75) {
+        return true
+    } else {
+        return false
+    }
+}
