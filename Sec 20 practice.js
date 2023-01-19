@@ -13,3 +13,8 @@ function lastNames() {
 }
 
 // Above, I wrote the function "lastNames()" before I even made it. This is called 'hoisting'. 
+
+function greet(firstName) {
+    console.log(`Hey there, ${firstName}!`)
+    console.log("HI!")
+}
