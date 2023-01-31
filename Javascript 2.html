@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript | Practice</title>
+</head>
+<body>
+    
+
+    <p id="text">Hello World!</p>
+
+    <button id="myButton">Change Text</button>
+
+
+    <script type="text/javascript">
+        
+        document.getElementById("myButton").onclick = function() {
+            // alert("Button Clicked!");
+            document.getElementById("text").innerHTML = "Hello Ricky!"
+            // 'document' tells the program what 'file' or 'document' you want to do js on. so type 'document' at the beginning.
+            // getElementByID, tells program what id you're going to change.
+            // in the brackets of getElementByID is the id located in the HTML.
+            // .innterHTML, is the "action". So above, innnterHTML means its going to change the innerHTML, the text.
+            // = "Hello Ricky", means the final product. When you click the button, it will change the previous text, to that.
+        }
+
+    </script>
+
+</body>
+</html>
