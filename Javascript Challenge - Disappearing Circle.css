@@ -4,8 +4,22 @@
     border-radius: 50%;
     float: left;
     margin: 50px;
+    transition: .24s;
+}
+
+.circle:hover {
+    cursor: pointer;
+    transform: scale(1.08);
 }
 
 #red-circle {
     background-color: red;
+}
+
+#blue-circle {
+    background-color: blue;
+}
+
+#yellow-circle {
+    background-color: yellow;
 }
