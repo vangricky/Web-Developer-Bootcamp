@@ -8,13 +8,25 @@
 </head>
 <body>
 
-    <button onClick="alert('JAVASCRIPT DID THIS!')">Click Me!</button>
+    <!-- <button onClick="alert('JAVASCRIPT DID THIS!')">Click Me!</button> -->
     <!-- ABOVE IS CALLED 'INLINE JAVASCRIPT'. USE ANOTHER FILE (.js) TO WRITE JAVASCRIPT -->
 
+    <p id="text">Hello World</p>
 
 
 
 
-<script src="Javascript.js"></script>
+
+<script type="text/javascript">
+
+    document.getElementById("text").innerHTML = "Hello Ricky!";
+    //COMMENTS IN THE SCRIPT SECTION IS 'TWO DASHES'
+    
+    /*
+    ABOVE, WE STARTED THE 'MULTI LINE' COMMENT>
+    TO END IT YOU WILL DO THE STAR, AND THEN DASH.
+    */
+
+</script>
 </body>
 </html>
