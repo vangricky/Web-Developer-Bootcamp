@@ -10,15 +10,17 @@
     
 
     <p id="text">Hello World!</p>
-
     <button id="myButton">Change Text</button>
+
+    <p id="secondParagraph">Javascript is ...</p>
+    <button id="secondButton">Append Text</button>
 
 
     <script type="text/javascript">
         
         document.getElementById("myButton").onclick = function() {
             // alert("Button Clicked!");
-            document.getElementById("text").innerHTML = "Hello Ricky!"
+            document.getElementById("text").innerHTML = "Hello Ricky!";
             // 'document' tells the program what 'file' or 'document' you want to do js on. so type 'document' at the beginning.
             // getElementByID, tells program what id you're going to change.
             // in the brackets of getElementByID is the id located in the HTML.
@@ -26,6 +28,9 @@
             // = "Hello Ricky", means the final product. When you click the button, it will change the previous text, to that.
         }
 
+        document.getElementById("secondButton").onclick = function() {
+            document.getElementById("secondParagraph").innerHTML = "Hello Ricky!";
+        }
     </script>
 
 </body>
