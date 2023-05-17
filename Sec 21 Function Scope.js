@@ -22,3 +22,10 @@ function helpMe() {
 // msg is scoped to the helpMe function
 msg;
 // should not be defined
+
+let bird = "Scarlet Macaw";
+function birdWatch() {
+  let bird = "Great Blue Heron";
+}
+console.log(bird);
+// This will print 'Scarlet Macaw' because we didn't run the birdWatch function.
